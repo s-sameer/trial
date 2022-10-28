@@ -1,4 +1,5 @@
 import image from "../images/bg.jpg"
+import jenkins from "../images/jenkins.svg"
 
 function Body() {
   return (
@@ -8,6 +9,7 @@ function Body() {
         <img src="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg" width={600} height={300} />
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSor_QkJKGs4txuGym5kYPfTSPkaulc-LFd59WiRvspeSrvv3ZGtSAFfPe9ZYqdhJlD8Yg&usqp=CAU" height="300px" width="600px"/>
         <img src={image} />
+        <img src={jenkins} />
     </div>
   )
 }
